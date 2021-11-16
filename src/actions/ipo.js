@@ -34,7 +34,7 @@ export const getResult = (compS) => (dispatch,getState) => {
                   }`
         axios.post(url,body,{headers})
                 .then(res=>{
-                    //console.log(res.config.data,res.data.message)
+                    //console.log(res)
                     dispatch({
                         type: GET_RESULT,
                         payload: {res:res.data.message,success:res.data.success,info:boids[i]}

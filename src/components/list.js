@@ -22,7 +22,7 @@ const List = ()=>{
     	))
     	:boids.map(boid=>(
 			                   <div key={boid.boid} className='plank'>
-			                   		<span className='text'>{boid.name} => {boid.boid}</span>
+			                   		<span className='text'>{boid.name} :: {boid.boid}</span>
 			                   		<span onClick={e => onDelete(e, boid.boid)} className='delete'>
 			                   			<i className="fas fa-trash"></i>
 			                   		</span>

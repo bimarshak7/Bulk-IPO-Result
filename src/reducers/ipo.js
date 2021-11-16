@@ -39,7 +39,7 @@ export default function (state = initialState, action) {
                 results:[]
             };
         case DELETE_BOID:
-            console.log('Reducer Called')
+            //console.log('Reducer Called')
             let update = state.boids.filter(boid=>boid.boid!=action.payload)
             localStorage.setItem('boids',JSON.stringify(update));
             return {

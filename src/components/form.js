@@ -40,6 +40,8 @@ const Forms = () =>{
 		}
 		else
 			dispatch(addBOID(boid))
+		setBoid({name:'',boid:''});
+		dispatch(resetStates());
 	}
 	return(
 		<div>
