@@ -1,0 +1,77 @@
+.box{
+text-align: center;
+}
+body{
+	background: #09101a;
+	color: white;
+}
+.plank{
+	height: 50px;
+	width: 70%;
+	background: #08041c;
+	margin: 1% auto;
+	border: 1px solid #735f30;
+	border-radius: 12px;
+}
+
+.text{
+	font-size: 1.5rem;
+	padding: 3px;
+}
+.res{
+	display: block;
+	font-size: 1.2rem;
+}
+.success-T{
+	background: green;
+}
+.success-F{
+	background: red;
+}
+
+.form-box{
+	margin: 2% auto;
+}
+.form-box input{
+	padding: 7px;
+	width: 20%;
+	margin: 0 2%;
+	background: #123;
+	color: white;
+	font-size: 1em;
+}
+
+.Sbutton {
+	margin: 7px auto;
+	padding: 5px 0;
+	width: 4em;
+	background-color: #190a40;
+	color: white;
+  	border: 2px solid #4CAF50;
+}
+.Sbutton:disabled {
+	background: grey;
+}
+
+.mySelect{
+    background: #071421;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.header{
+	margin: 1% 0;
+	font-size: 2em;
+	text-decoration: underline;
+}
+
+.delete {
+	float: right;
+	margin: 1.5% 3%;
+	cursor: default;
+}
+.delete:hover{
+	color: red;
+}
